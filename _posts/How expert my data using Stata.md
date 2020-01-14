@@ -1,3 +1,31 @@
+---
+title: 'How expert my data using Stata'
+author: "Iron Hong"
+date: '2020-01-16'
+output:
+  html_document:
+    df_print: paged
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+lastmod: '2020-01-16T08:51:37+09:00'
+categories: Stata
+projects: []
+slug: How expert my data using Stata
+subtitle: ''
+summary: ''
+tags: Expert data
+authors: []
+---
+
+
+
+
+
+
+
 U can type:
 ```
 sysuse auto, clear
