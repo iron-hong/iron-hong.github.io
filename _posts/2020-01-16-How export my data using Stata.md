@@ -1,29 +1,7 @@
 ---
-title: 'How export my data using Stata'
-author: "Iron Hong"
-date: '2020-01-16'
-output:
-  html_document:
-    df_print: paged
-featured: no
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-lastmod: '2020-01-16T08:51:37+09:00'
-categories: Stata
-projects: []
-slug: How export my data using Stata
-subtitle: ''
-summary: ''
-tags: Export data
-authors: []
+title:  "How export my data using Stata"
+categories: post
 ---
-
-
-
-
-
 
 
 U can type:
