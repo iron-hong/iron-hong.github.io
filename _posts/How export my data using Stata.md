@@ -31,7 +31,7 @@ U can type:
 sysuse auto, clear
 ```
 
-Export varible make, price mpg and rep78 list from 1 to 5
+Export varible make, price mpg and rep78 from 1 to 5
 ```
 dataex make price mpg rep78 in 1/5
 ```
