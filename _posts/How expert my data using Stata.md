@@ -1,9 +1,11 @@
 U can type:
-```sysuse auto, clear
+```
+sysuse auto, clear
 ```
 
 Expert varible make, price mpg and rep78 list from 1 to 5
-```dataex make price mpg rep78 in 1/5
+```
+dataex make price mpg rep78 in 1/5
 ```
 
 Copy these code and done
