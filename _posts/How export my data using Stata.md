@@ -1,5 +1,5 @@
 ---
-title: 'How expert my data using Stata'
+title: 'How export my data using Stata'
 author: "Iron Hong"
 date: '2020-01-16'
 output:
@@ -13,10 +13,10 @@ image:
 lastmod: '2020-01-16T08:51:37+09:00'
 categories: Stata
 projects: []
-slug: How expert my data using Stata
+slug: How export my data using Stata
 subtitle: ''
 summary: ''
-tags: Expert data
+tags: Export data
 authors: []
 ---
 
@@ -31,7 +31,7 @@ U can type:
 sysuse auto, clear
 ```
 
-Expert varible make, price mpg and rep78 list from 1 to 5
+Export varible make, price mpg and rep78 list from 1 to 5
 ```
 dataex make price mpg rep78 in 1/5
 ```
