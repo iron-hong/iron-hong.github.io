@@ -1,23 +1,6 @@
 ---
-title: '비모수 검정: Wilcoxon rank sum test'
-author: "Iron Hong"
-date: '2019-07-16'
-output:
-  html_document:
-    df_print: paged
-featured: no
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-lastmod: '2019-07-16T08:51:37+09:00'
-categories: R
-projects: []
-slug: 비모수-검정-wilcoxon-rank-sum-test
-subtitle: ''
-summary: ''
-tags: Nonparametric Test
-authors: []
+title:  "비모수-검정-wilcoxon-rank-sum-test"
+categories: post
 ---
 
 
