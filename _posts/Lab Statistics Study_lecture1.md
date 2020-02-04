@@ -8,4 +8,4 @@ comments: true
 
 ## The course materials is the followings:
 >
->- [PPT+code](research.zip)
+>- [PPT+code](https://github.com/iron-hong/iron-hong.github.io/blob/master/research.zip)
