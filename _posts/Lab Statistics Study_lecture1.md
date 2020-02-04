@@ -1,5 +1,5 @@
 ---
-title:  "lecture1"
+title:  "Lab Statistics Study_lecture1"
 categories: post
 
 ---
