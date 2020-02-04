@@ -5,7 +5,6 @@ lang: "en"
 
 remote_theme: niklasbuschmann/contrast
 
-
 # Page settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
