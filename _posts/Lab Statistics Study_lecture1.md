@@ -8,4 +8,4 @@ comments: true
 
 ## The course materials is the followings:
 >
->- [PPT+code](_images/research.zip)
+>- [PPT+code](research.zip)
