@@ -4,7 +4,7 @@ title: "About"
 ---
 ## Iron Hong
 >- He is a PhD student of Dept. of Environmental Planning at the Seoul National University. His academic mentor is Professor In Kwon, Park([Link](https://gses.snu.ac.kr/ko/professor/41)).
-His research interests include inclusive planning, spatial statistics, and causal inference.
+>- Research interests include inclusive planning, spatial statistics, and causal inference.
 
 ## Article(SSCI)
 >- (1) Hong, Z., & Park, I.K. (2020). Is the Well-Being of Neighboring Cities Important to Me? Analysis of the Spatial Effect of Social Capital and Urban Amenities in South Korea. Soc Indic Res. https://doi.org/10.1007/s11205-020-02542-1
