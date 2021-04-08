@@ -3,7 +3,7 @@ layout: About
 title: "About"
 ---
 ## Iron Hong
->- He is a PhD student of Dept. of Environmental Planning at the Seoul National University. His doctoral advisor is Professor In Kwon, Park([Link](https://gses.snu.ac.kr/ko/professor/41)).
+>- He is a PhD candidate of Dept. of Environmental Planning at the Seoul National University. His doctoral advisor is Professor In Kwon, Park([Link](https://gses.snu.ac.kr/ko/professor/41)).
 >- Research interests include inclusive planning, spatial econometrics, and causal inference.
 
 ## Article
