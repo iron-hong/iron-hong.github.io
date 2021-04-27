@@ -8,7 +8,7 @@ title: "About"
 
 ## Article
 ## (SSCI)
->- (1) Hong, Z.*, & Park, I.K. (2020). Is the Well-Being of Neighboring Cities Important to Me? Analysis of the Spatial Effect of Social Capital and Urban Amenities in South Korea. Soc Indic Res. https://doi.org/10.1007/s11205-020-02542-1
+>- (1) Hong, Z.*, & Park, I.K. (2020). Is the Well-Being of Neighboring Cities Important to Me? Analysis of the Spatial Effect of Social Capital and Urban Amenities in South Korea. Social Indicators Research. https://doi.org/10.1007/s11205-020-02542-1
 >- (2) Hong, Z.*, & Park, I.K. (2018). The effects of regional characteristics and policies on individual pro-environmental behavior in China. Sustainability, 10(10), 3586. https://doi.org/10.3390/su10103586
 
 ## (KCI)
