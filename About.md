@@ -23,7 +23,7 @@ title: "About"
 ## Conference
 >- (1) 홍철·박인권, 우수논문상, 중국 지방정부 역량이 대기오염 개선성과에 미치는 영향, 한국지역학회 2017년6월 전기학술대회, 국토연구원 개최.
 >- (2) Hong, Z. & Park I.K., Multi-level Analysis of the Determinants of Regional Residents’ Pro-Environmental Behavior in China, Asian Seminar in Regional Science (ASRS), September, 2018 at the Jeju National University.
->- (3) Hong, Z. & Park I.K., 	Spatial panel analysis on the factors influencing the subjective well-being of cities: Evidence from South Korea, North American Regional Science Council (NARSC), November, 2019 in Pittsburgh, Pennsylvania, USA.
+>- (3) Hong, Z. & Park I.K., Spatial panel analysis on the factors influencing the subjective well-being of cities: Evidence from South Korea, North American Regional Science Council (NARSC), November, 2019 in Pittsburgh, Pennsylvania, USA.
 >- (4) 홍철·박인권, ‘맞춤형’ 주거급여 제도가 임차가구의 주거비 부담에 미치는 효과, 대한국토·도시계획학회 2020년4월 춘계학술대회, 온라인 개최.
 >- (5) 홍철·박인권, 우수논문상, 머신러닝 기법은 에너지 빈곤을 예측할 수 있는가, 대한국토·도시계획학회 2021년4월 춘계학술대회, 온라인 개최.
 
