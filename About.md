@@ -5,6 +5,7 @@ title: "About"
 ## Iron Zhe Hong([ORCID](https://orcid.org/0000-0003-4288-3086))
 >- He is a PhD candidate of Dept. of Environmental Planning at the Seoul National University. His doctoral advisor is Professor In Kwon, Park([Link](https://gses.snu.ac.kr/ko/professor/41)).
 >- Research interests include inclusive planning, spatial econometrics, causal discovery and machine learning.
+>- Anonymous reviewer of [Social Indicators Research](https://www.springer.com/journal/11205).
 
 
 ## Article
