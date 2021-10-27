@@ -4,7 +4,7 @@ title: "About"
 ---
 ## 홍철([Zhe Hong](https://orcid.org/0000-0003-4288-3086))
 >- He is a PhD candidate of Dept. of Environmental Planning at the Seoul National University. His doctoral advisor is Professor [In Kwon, Park](https://gses.snu.ac.kr/ko/professor/41).
->- Research interests include inclusive planning, spatial econometrics, causal discovery and machine learning.
+>- Research interests include inclusive planning, spatial econometrics, and ML(machine learning) based causal inference.
 >- Reviewer of [Social Indicators Research](https://www.springer.com/journal/11205).
 
 
