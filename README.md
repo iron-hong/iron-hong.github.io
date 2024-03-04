@@ -5,13 +5,20 @@ permalink: "About"
 ---
 
 ## 홍철([Zhe Hong](https://orcid.org/0000-0003-4288-3086))
-I am a PhD in City Planning at the Seoul National University. My research interests include  inclusive planning, smart cities, living SOC, and happy city planning. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [researchgate](https://www.researchgate.net/profile/Zhe-Hong-3)).
 
+## Education
+>- Ph.D. in City Planning, Seoul National University, 2019-2024.
+>- PhD course in Urban Administration, University of Seoul, 2017-2019.
+>- Master of Urban Administration, University of Seoul, 2015-2017.
+
+>- My research interests include  inclusive planning, smart cities, living SOC, and happy city planning. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [researchgate](https://www.researchgate.net/profile/Zhe-Hong-3)).
 
 ## Article
 ## (SSCI)
->- (1) Hong, Z.*, & Park, I.K. (2020). Is the Well-Being of Neighboring Cities Important to Me? Analysis of the Spatial Effect of Social Capital and Urban Amenities in South Korea. Social Indicators Research. https://doi.org/10.1007/s11205-020-02542-1
->- (2) Hong, Z.*, & Park, I.K. (2018). The effects of regional characteristics and policies on individual pro-environmental behavior in China. Sustainability, 10(10), 3586. https://doi.org/10.3390/su10103586
+>- (1) Hong, Z.*, & Park, I. K. (2023). Longitudinal mediating effect of social capital on the relationship between public housing and mental health: evidence from South Korea. Journal of Housing and the Built Environment, 1-19. https://doi.org/10.1007/s10901-023-10015-3
+>- (2) Park, I. K., von Rabenau, B., & Hong, Z. (2023). The effects of ‘sanctuary city’ policies on the local economy: empirical evidence from US counties. International Journal of Urban Sciences, 27(1), 19-38. https://doi.org/10.1080/12265934.2022.2093261
+>- (3) Hong, Z.*, & Park, I.K. (2020). Is the Well-Being of Neighboring Cities Important to Me? Analysis of the Spatial Effect of Social Capital and Urban Amenities in South Korea. Social Indicators Research. https://doi.org/10.1007/s11205-020-02542-1
+>- (4) Hong, Z.*, & Park, I.K. (2018). The effects of regional characteristics and policies on individual pro-environmental behavior in China. Sustainability, 10(10), 3586. https://doi.org/10.3390/su10103586
 
 ## (KCI)
 >- (1) 박인권, 이민주, 홍철*, & 임인선. (2017). 한국 도시의 포용성 진단과 유형별 특성 분석. 도시행정학보, 30(3).
