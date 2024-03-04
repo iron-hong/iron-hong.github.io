@@ -5,7 +5,7 @@ permalink: "About"
 ---
 
 ## 홍철([Zhe Hong](https://orcid.org/0000-0003-4288-3086))
-He is a PhD in City Planning at the Seoul National University. Research interests include inclusive planning, spatio‐temporal modeling, and ML(machine learning) based causal inference. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [researchgate](https://www.researchgate.net/profile/Zhe-Hong-3)).
+I am a PhD in City Planning at the Seoul National University. Research interests include  inclusive planning, smart cities, living SOC, and happy city planning. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [researchgate](https://www.researchgate.net/profile/Zhe-Hong-3)).
 
 
 ## Article
