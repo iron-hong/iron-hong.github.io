@@ -20,8 +20,9 @@ dark_footer: true           # keep the footer dark
 
 navigation:                  # site navigation in the header
   - index.html
-  - archive.md
   - README.md
+  - archive.md
+
 
 #  - title: "https://"       # linking external sites is also supported
 
