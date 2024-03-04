@@ -4,7 +4,7 @@ permalink: "About"
 
 ---
 
-## 홍철([Zhe Hong](https://orcid.org/0000-0003-4288-3086))
+## 홍철([Iron Zhe Hong](https://orcid.org/0000-0003-4288-3086))
 
 ## Education
 >- Ph.D. in City Planning, Seoul National University, 2019-2024.
