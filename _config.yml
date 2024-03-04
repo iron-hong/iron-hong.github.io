@@ -29,7 +29,7 @@ navigation:                  # site navigation in the header
 icons:                       # (optional) fontawesome icons in the header
   envelope: "mailto:righttocity123@gmail.com"
   github: "https://github.com/iron-hong"
-  google scholar: "https://scholar.google.co.kr/citations?user=kRHz7KcAAAAJ&hl=ko"
+  google scholar: "https://scholar.google.co.kr/citations?hl=ko&user=LUjF0tAAAAAJ"
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""
