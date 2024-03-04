@@ -5,16 +5,13 @@ permalink: "About"
 ---
 
 ## 홍철([Zhe Hong](https://orcid.org/0000-0003-4288-3086))
-서울대학교 환경계획연구소 객원연구원,
-Visiting Researcher, Environmental Planning Institute,
-Seoul National University (SNU), Seoul 08826, Korea.
+>- Visiting Researcher, Environmental Planning Institute, Seoul National University (SNU), Seoul 08826, Korea.
+>- My research interests include  inclusive planning, smart cities, living SOC, and happy city planning. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=LUjF0tAAAAAJ)).
 
 ## Education
 >- Ph.D. in City Planning, Seoul National University, 2019-2024.
 >- PhD course in Urban Administration, University of Seoul, 2017-2019.
 >- Master of Urban Administration, University of Seoul, 2015-2017.
-
->- My research interests include  inclusive planning, smart cities, living SOC, and happy city planning. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=LUjF0tAAAAAJ)).
 
 ## Article
 ## (SSCI)
