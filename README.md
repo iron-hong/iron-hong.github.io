@@ -11,7 +11,7 @@ permalink: "About"
 >- PhD course in Urban Administration, University of Seoul, 2017-2019.
 >- Master of Urban Administration, University of Seoul, 2015-2017.
 
->- My research interests include  inclusive planning, smart cities, living SOC, and happy city planning. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [researchgate](https://www.researchgate.net/profile/Zhe-Hong-3)).
+>- My research interests include  inclusive planning, smart cities, living SOC, and happy city planning. Feel free to contact me [via email](mailto:righttocity123k@gmail.com) or [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=LUjF0tAAAAAJ)).
 
 ## Article
 ## (SSCI)
