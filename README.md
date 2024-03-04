@@ -5,6 +5,9 @@ permalink: "About"
 ---
 
 ## 홍철([Zhe Hong](https://orcid.org/0000-0003-4288-3086))
+서울대학교 환경계획연구소 객원연구원,
+Visiting Researcher, Environmental Planning Institute,
+Seoul National University (SNU), Seoul 08826, Korea.
 
 ## Education
 >- Ph.D. in City Planning, Seoul National University, 2019-2024.
