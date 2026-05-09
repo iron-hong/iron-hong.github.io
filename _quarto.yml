@@ -4,15 +4,15 @@ project:
   
 website:
   page-navigation: true
-  title: "Yujun Lian"
-  site-url: https://lianyujun.github.io
+  title: "Life is short, learning is long."
+  site-url: https://iron-hong.github.io
   favicon: images/site-logo.png
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
+  repo-url: https://iron-hong.github.io
   repo-actions: [edit, issue]
   
   page-footer:
     left: |
-      [lianxh.cn](https://www.lianxh.cn)<br>
+      [iron-hong](https://iron-hong.github.io)<br>
     right: |
       Made with [Quarto](https://quarto.org/)<br>
     
@@ -24,20 +24,14 @@ website:
         href: index.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Books"
-        href: books.qmd
       - text: "Blogs"
-        href: blog.qmd
-      - text: "Codes"
-        href: codes.qmd
-      - text: "中文"
-        href: Chinese.qmd
+        href: blog/blog.qmd
       - text: "CV"
-        href: CV.pdf
+        href: CV_en.pdf
 
 format:
   html:
     theme: styles.scss
-    toc: true            # 启用目录
-    toc-position: right  # 将目录放置在页面的右侧
-    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
+    toc: true           
+    toc-position: right  
+    toc-depth: 3         
