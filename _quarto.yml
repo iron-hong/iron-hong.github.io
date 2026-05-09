@@ -27,7 +27,7 @@ website:
       - text: "Blogs"
         href: blog/blog.qmd
       - text: "CV"
-        href: CV_en.pdf
+        href: CV.pdf
 
 format:
   html:
