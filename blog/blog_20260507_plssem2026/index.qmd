@@ -2,7 +2,6 @@
 title: "PLS-SEM in R: cSEM 패키지 활용 튜토리얼"
 author: "Iron Hong"
 description: |
-
 date: "2026-05-05"
 categories: [Data science]
 title-block-banner: false
