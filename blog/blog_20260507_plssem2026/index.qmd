@@ -1,9 +1,9 @@
 ---
-title: "Personal Highlights: Positconf 2024"
-author: "Chi Zhang"
+title: "PLS-SEM in R: cSEM 패키지 활용 튜토리얼"
+author: "Iron Hong"
 description: |
-  My picked talks for 2024 after Posit released the talks on YouTube
-date: "2024-11-05"
+
+date: "2026-05-05"
 categories: [Data science]
 title-block-banner: false
 format: 
@@ -23,9 +23,7 @@ format:
 
 두가지 접근 방법은 공통적으로 관측변수로 통해 복잡한 요인들의 관계를 통계적으로 파악한다는 점에서 비슷하지만 활용 목적, 분석 데이터 분포, 표본 크기 등 여러 측면에서 차이가 있다. 예컨대, 분산 기반(VB-SEM)은 예측과 복잡한 모형의 탐색에, 공분산 기반(CB-SEM)은 이론 검증과 모형 적합도 확인에 여점을 둔다. 나아가 CB-SEM은 분석 데이터가 정규분포를 따른다고 가정하며 이론 모델과 실제 공분산 행렬의 차이를 최소화하는 반면, VB-SEM은 분포 가정이 없고 내생변수의 분산을 최대화하여 예측력을 높이는 데 집중한다. 그리고 표본 크기에 있어서 CB-SEM은 보통 200개 이상의 관측치가 필요하지만, VB-SEM은 표본 크기의 제약을 덜 받아서 관측치가 적은 소표본에서도 분석이 가능하다.
 
-특히 VB-구조방정식 모형은 외부 모형(outer model)과 내부 모형(inner model)으로 구성되어 있다(\<그림 1\> 참고). 외부모형은 관측변수들(manifest variables)과 잠재변수(latent variables)와의 관계에 관한 모형이다. 내부모형은 잠재변수들 간의 관계에 대한 모형이다. 이 부분에 대해 CB-구조방정식 모형에서는 외부 모형을 측정 모형(measurement model)으로, 외부 모형을 구조 모형(structural model)이라고 한다.
-
-![\<그림 1\> 내부모형과 외부모형으로 구성된 VB-구조방정식 모형](PLS_SEM_files/fig00.png){fig-align="center"}
+특히 VB-구조방정식 모형은 외부 모형(outer model)과 내부 모형(inner model)으로 구성되어 있다. 외부모형은 관측변수들(manifest variables)과 잠재변수(latent variables)와의 관계에 관한 모형이다. 내부모형은 잠재변수들 간의 관계에 대한 모형이다. 이 부분에 대해 CB-구조방정식 모형에서는 외부 모형을 측정 모형(measurement model)으로, 외부 모형을 구조 모형(structural model)이라고 한다.
 
 이미 다양한 통계 프로그램이나 도구를 통해 CB-SEM을 다루는 가이드가 많이 존재하므로, 이 튜토리얼(Tutorial)은 주로 최신 R 패키지(cSEM)를 이용하여 VB-SEM 관련해서 실증연구에 유용한 분석방법들을 간단하게 소개하고자 한다.
 
