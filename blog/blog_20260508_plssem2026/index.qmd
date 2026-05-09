@@ -1,8 +1,16 @@
 ---
-title: "PLS_SEM"
+title: "PLS-SEM in R"
 author: "홍철"
-format: html
-editor: visual
+description: |
+date: "2026-05-05"
+categories: [SEM]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: false
+    code-tools: false
 ---
 
 ## 1.서론
