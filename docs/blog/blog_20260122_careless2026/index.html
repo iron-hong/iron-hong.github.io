@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Chi Zhang">
-<meta name="dcterms.date" content="2024-09-23">
+<meta name="author" content="Iron Hong">
+<meta name="dcterms.date" content="2026-02-05">
 
-<title>Use Quarto, Make Friends: a two-year journey – Life is short, learning is long.</title>
+<title>우리는 설문조사에 얼마나 성실하게 응답했는가? – Life is short, learning is long.</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -126,21 +161,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#quarto-as-a-teaching-tool" id="toc-quarto-as-a-teaching-tool" class="nav-link active" data-scroll-target="#quarto-as-a-teaching-tool">Quarto as a teaching tool</a></li>
-  <li><a href="#quarto-as-a-collaboration-tool" id="toc-quarto-as-a-collaboration-tool" class="nav-link" data-scroll-target="#quarto-as-a-collaboration-tool">Quarto as a collaboration tool</a></li>
-  <li><a href="#what-else" id="toc-what-else" class="nav-link" data-scroll-target="#what-else">What else?</a></li>
+  <li><a href="#서론" id="toc-서론" class="nav-link active" data-scroll-target="#서론">서론</a></li>
+  <li><a href="#불성실-응답의-주요-원인" id="toc-불성실-응답의-주요-원인" class="nav-link" data-scroll-target="#불성실-응답의-주요-원인">불성실 응답의 주요 원인</a></li>
+  <li><a href="#분석-프로그램-응용범인을-찾아라" id="toc-분석-프로그램-응용범인을-찾아라" class="nav-link" data-scroll-target="#분석-프로그램-응용범인을-찾아라">분석 프로그램 응용(범인을 찾아라)</a></li>
+  <li><a href="#그-다음은" id="toc-그-다음은" class="nav-link" data-scroll-target="#그-다음은">그 다음은…?</a></li>
   </ul>
-<div class="toc-actions"><ul class="collapse"><li><a href="https://iron-hong.github.io/edit/main/blog/blog_20240923_quartofriends/index.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://iron-hong.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://iron-hong.github.io/edit/main/blog/blog_20260122_careless2026/index.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://iron-hong.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Use Quarto, Make Friends: a two-year journey</h1>
+<h1 class="title">우리는 설문조사에 얼마나 성실하게 응답했는가?</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Quarto</div>
-    <div class="quarto-category">Website</div>
+    <div class="quarto-category">Data science</div>
   </div>
   </div>
 
@@ -151,14 +186,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Chi Zhang </p>
+             <p>Iron Hong </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 23, 2024</p>
+      <p class="date">February 5, 2026</p>
     </div>
   </div>
   
@@ -170,55 +205,121 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p>I wrote a blog back in early 2023 when I first switched from blogdown to Quarto on my initial impression (read <a href="https://chizapoth.github.io/blog/blog_20230103_blogdown2quarto/">here</a>), and this is a two-year follow-up on my journey since I started using Quarto, for my personal website, teaching, scientific works and collaborative community projects.</p>
-</blockquote>
-<section id="quarto-as-a-teaching-tool" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-as-a-teaching-tool">Quarto as a teaching tool</h2>
-<section id="from-personal-to-workshop-website" class="level3">
-<h3 class="anchored" data-anchor-id="from-personal-to-workshop-website">From personal to workshop website</h3>
-<p>I switched from blogdown to Quarto in late 2022, right after my PhD. It was initially a cure for a severe burnout from a combination of work-related stressors, when I desperately needed something other than research. My mental state was like the famous painting by Norwegian artist Edvard Munch:</p>
-<div class="quarto-figure quarto-figure-center">
+<section id="서론" class="level2">
+<h2 class="anchored" data-anchor-id="서론">서론</h2>
+<p>도시계획학을 비롯한 사회과학 연구에서는 설문조사를 통해 자료를 수집하는 경우가 많다. 특히, 최근에 온라인 설문이 보편화되면서 접근성 향상, 시간이나 비용의 절약 등으로 인해 설문조사의 활용이 더욱 높아지고 있다.</p>
+<p>그러나 조사하는 과정에서 응답자가 성실하게 응답을 제공할 동기가 낮거나, 설문 문항을 잘 이해하지 못하거나 충분히 노력과 주의를 기울이지 않은 문제가 발생할 수 있는데 이러한 경우를 불성실 응답(careless responding)이라고 한다. 문제는 응답자들의 불성실 응답을 잘 통제하지 않으면 측정오차, 제2종 오류 등을 유발시켜서 왜곡된 결과를 도출할 수 있다(Goldammer et al., 2020). 따라서 최근 연구들은 데이터의 질을 향상하기 위해 불성실 응답의 원인과 이를 해결하고자 노력하고 있다.</p>
+</section>
+<section id="불성실-응답의-주요-원인" class="level2">
+<h2 class="anchored" data-anchor-id="불성실-응답의-주요-원인">불성실 응답의 주요 원인</h2>
+<p>일반적으로 불성실 응답은 설문 문항의 내용과 관련 없이 무작위로 응답하는 것, 설문 내용에 빈칸을 남기는 것, 질문을 잘못 이해하는 것, 그리고 질문 내용이 서로 다른 문항들에 대해 의도적으로 동일한 응답을 작성하는 것 등의 유형이 있다. 이러한 불성실 응답의 주요 원인은 크게 2가지로 볼 수 있다.</p>
+<p>첫 번째는 개인적 요인 (individual factor), 또는 응답자의 동기 때문에 발생한다는 것이다. 즉 응답자가 조사 내용에 대한 관심이 부족하거나, 연구 목적에 대한 이해 부족하거나, 혹은 다른 업무 처리 때문에 응답 시간이 부족하여 성실하게 응답하려는 내적 동기가 낮은 경우를 말한다. 특히, 응답자가 “만족 응답”에만 급급하여 설문을 빨리 끝내고 싶어 할 때 많이 발생한다. 이외에 성격(꼼꼼하지 않은), 연령(젊은 층), 성별(남성) 등 개인적 특성도 불성실 응답의 주요 원인으로 언급되고 있다.</p>
+<p>두 번째 원인은 맥락적 요인 (contextual factor)이라고 하는데, 환경적 요인, 사회적 요인, 구조적 요인으로 나눠진다. 환경적 요인은 환경의 주의 분산이라고도 한다, 주로 설문조사를 수행하는 주변 환경이나 상황 여건이(예를 들어 소음, 우천 등) 좋지 않아서 설문 응답에 집중하기가 쉽지 않은 경우를 의미한다. 사회적 요인은 연구자와의 사회적 접촉을 뜻하는데 주로 조사자와 응답자 간의 상호작용이 부족하거나, 연구의 신뢰성이 낮다고 느낄 때 응답자는 성의 없는 태도를 보일 수 있다. 반면, 적절한 상호 의사소통은 응답자의 적극적인 응답 태도를 보여준다. 마지막으로 구조적 요인은 보통 설문지 길이 또는 설문 문항이 지나치게 방대하거나 복잡해서 응답자는 설문 피로(survey fatigue)를 느껴, 뒷부분으로 갈수록 답변이 기계적이거나 불성실해지는 경향이 있다.</p>
+</section>
+<section id="분석-프로그램-응용범인을-찾아라" class="level2">
+<h2 class="anchored" data-anchor-id="분석-프로그램-응용범인을-찾아라">분석 프로그램 응용(범인을 찾아라)</h2>
+<p>최근 오픈 소스인 R의 패키지 careless는 설문조사 데이터에서 응답자가 문항을 제대로 읽지 않고 불성실하게 응답한 케이스를 탐지하는 데 유용한 도구로 활용되고 있음. 연구자들은 주로 Long String, Psychometric Synonym/Antonym, Even-Odd Consistency, Mahalanobis Distance 4개 방을 불성실 응답을 탐지하고 있음.</p>
+<section id="longstring-최장-연속-응답" class="level3">
+<h3 class="anchored" data-anchor-id="longstring-최장-연속-응답">Longstring (최장 연속 응답):</h3>
+<p>한 번호로만 응답한 응답자(Straightlining)를 찾아내는 방법임. 예를 들어, 1번 문항부터 20번 문항까지 모두 ’5’로 응답한 경우, 이 응답자는 설문 문항을 제대로 읽지 않고 무작위로 응답했을 가능성이 높다고 판단할 수 있다. Long String 방법은 이러한 패턴을 탐지하여 불성실 응답자를 식별한다.</p>
+</section>
+<section id="psychometric-synonym-antonym-심리적-동의어반의어" class="level3">
+<h3 class="anchored" data-anchor-id="psychometric-synonym-antonym-심리적-동의어반의어">Psychometric Synonym / Antonym (심리적 동의어/반의어):</h3>
+<p>비슷한 질문에는 비슷하게, 반대 질문에는 반대로 답했는지, 즉 ’논리적 일관성’을 검증하는 방법임. 예를 들어, “나는 내 삶에 만족한다”와 “나는 내 삶에 불만족한다”라는 두 문항이 있을 때, 응답자가 첫 번째 문항에 ’5’로 응답했다면, 두 번째 문항에는 ’1’로 응답하는 것이 논리적으로 일관된 답변이 될 것이다. 이 방법은 응답자의 논리적 일관성을 평가하여 불성실 응답을 판단한다.</p>
+</section>
+<section id="evenodd-consistency-기우-일관성" class="level3">
+<h3 class="anchored" data-anchor-id="evenodd-consistency-기우-일관성">Even–Odd Consistency (기우 일관성):</h3>
+<p>설문지를 반으로 나누었을 때(짝수/홀수) 전체적인 응답 경향이 일치하는지 확인하는 방법임. 예를 들어, 1번, 3번, 5번 문항에 ’5’로 응답한 경우, 2번, 4번, 6번 문항에도 ’5’로 응답하는 것이 일관된 패턴이 될 것이다. 이 방법은 설문지의 앞부분과 뒷부분에서 응답자의 일관성을 평가하여 불성실 응답을 탐지한다.</p>
+</section>
+<section id="mahalanobis-distance-마할라노비스-거리" class="level3">
+<h3 class="anchored" data-anchor-id="mahalanobis-distance-마할라노비스-거리">Mahalanobis Distance (마할라노비스 거리):</h3>
+<p>다른 일반적인 응답자들의 패턴에서 혼자 너무 멀리 떨어져 있는 ’통계적 이상치’를 찾아내는 방법임. 예를 들어, 대부분의 응답자가 1번 문항에 ’3’으로 응답했지만, 특정 응답자가 ’5’로 응답한 경우, 이 응답자는 다른 응답자들과 비교하여 마할라노비스 거리가 멀어질 수 있다. 이 방법은 설문조사 데이터에서 통계적으로 이러한 패턴을 탐지하여 불성실 응답을 식별한다.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(careless)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample Dataset: Simulation study</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>data1<span class="ot">=</span>careless<span class="sc">::</span>careless_dataset</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>data2<span class="ot">=</span>careless<span class="sc">::</span>careless_dataset2</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 최장 연속 응답</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">4</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(x)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] 4 4 4 3 3 3 3 3 4 4</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>careless_long <span class="ot">&lt;-</span> <span class="fu">longstring</span>(data2)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">boxplot</span>(careless_long, <span class="at">main =</span> <span class="st">"Boxplot of Longstring index"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
 <figure class="figure">
-<p><img src="scream.JPG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%"></p>
+<p><img src="index_files/figure-html/setup-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
-<p>The experience of the switch was explained in the previously mentioned blog. Briefly, it was light like a feather. Since I was quite satisfied, I thought, why don’t I make a <strong>workshop website</strong>? So I did.</p>
-<p>The result was quite good, I made the (as far as I knew) first quarto workshop <a href="https://ocbe-uio.github.io/2022_bioinformatics_workshop/">website</a> at University of Oslo for the <a href="https://www.mn.uio.no/sbi/english/events/oslo-bioinformatics-week-2022/">Oslo Bioinformatics Workshop Week 2022</a>. Feedback from students were positive, and the instructor team thought it hosts the material in a more organized way.</p>
-</section>
-<section id="single-day-workshop---two-week-course" class="level3">
-<h3 class="anchored" data-anchor-id="single-day-workshop---two-week-course">Single day workshop -&gt; two week course</h3>
-<p>I was greatly encouraged by the experience, so when I got a 50% position at University of Oslo as biostatistics lecturer, I thought, why don’t we have the same thing for the course?</p>
-<div class="quarto-figure quarto-figure-center">
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 심리적 동의어/반의어</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>psychsyn_cor <span class="ot">&lt;-</span> <span class="fu">psychsyn_critval</span>(data2)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(psychsyn_cor)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>       var1   var2       cor
+6668 APati8 APati7 0.7893989
+6567 APati7 APati6 0.7707801
+6568 APati8 APati6 0.7365130
+6669 APati9 APati7 0.7167873
+7073 CPerf3 CPerf1 0.7106777
+6769 APati9 APati8 0.7049997</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 기준치를 0.6 이상으로 설정함(연구자들이 합의된 것 아님)</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(psychsyn_cor<span class="sc">$</span>Freq <span class="sc">&gt;</span> .<span class="dv">60</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 히스토그램 그려보기 </span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>example_psychsyn <span class="ot">&lt;-</span> <span class="fu">psychsyn</span>(data2, <span class="at">critval =</span> .<span class="dv">60</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(example_psychsyn, <span class="at">main =</span> <span class="st">"Histogram of psychometrical synonyms index"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
 <figure class="figure">
-<p><img src="lemur.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
+<p><img src="index_files/figure-html/setup-2.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
-<p>Oh well, the workload is crushing. There were a few key differences:</p>
-<ul>
-<li>R scripts and material were unavailable since the course was originally in STATA. Everything need to be done from scratch, for at least 12 lab sessions;</li>
-<li>The students generally have little IT skills, which means more effort need to be done to guide them through the ‘get started’ part.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 기우 일관성</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>careless_eo <span class="ot">&lt;-</span> <span class="fu">evenodd</span>(data2, <span class="at">factors =</span> <span class="fu">rep</span>(<span class="dv">10</span>,<span class="dv">10</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in evenodd(data2, factors = rep(10, 10)): Computation of even-odd has changed for consistency of interpretation
+          with other indices. This change occurred in version 1.2.0. A higher
+          score now indicates a greater likelihood of careless responding. If
+          you have previously written code to cut score based on the output of
+          this function, you should revise that code accordingly.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(careless_eo, <span class="at">main =</span> <span class="st">"Histogram of even-odd consistency index"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
 <figure class="figure">
-<p><img src="noregret.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
+<p><img src="index_files/figure-html/setup-3.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
-<p>It took <strong>one month</strong> to create the first version of the website. More details about the experience can be read <a href="https://chizapoth.github.io/blog/blog_20230717_teaching/">here</a>.</p>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 마할라노비스 거리</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Q-Q 플롯 보여줌</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>careless_mahad <span class="ot">&lt;-</span> mahad_raw <span class="ot">&lt;-</span> <span class="fu">mahad</span>(data1)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/setup-4.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
-<section id="adding-webr-to-the-course" class="level3">
-<h3 class="anchored" data-anchor-id="adding-webr-to-the-course">Adding <code>WebR</code> to the course</h3>
-<p>One year later, as technology advances, we added new content to some parts of the website. Most notably is the interactivity achieved through <code>WebR</code>. For example, I made this <a href="https://ocbe-uio.github.io/teaching_mf9130e/lab/lab_distribution.html">page</a> on <strong>randomness and statistical distribution</strong> where students can interactively modify code chunks in a web browser.</p>
 </section>
-</section>
-<section id="quarto-as-a-collaboration-tool" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-as-a-collaboration-tool">Quarto as a collaboration tool</h2>
-<p>A static (or even interactive) website is not exactly what you call ‘collaborative tool’. However, if you work as a group towards <strong>something cool</strong>, Quarto might just be the tool you need. Check out the <a href="https://psiaims.github.io/CAMIS/">CAMIS</a> project to find out what I mean by this!</p>
-</section>
-<section id="what-else" class="level2">
-<h2 class="anchored" data-anchor-id="what-else">What else?</h2>
-<p>The associated talk is available on YouTube, check it out!</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/0TEdFZ17FhY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="그-다음은" class="level2">
+<h2 class="anchored" data-anchor-id="그-다음은">그 다음은…?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fig1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
+</figure>
+</div>
 
 
 </section>
@@ -632,7 +733,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://iron-hong.github.io/edit/main/blog/blog_20240923_quartofriends/index.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://iron-hong.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://iron-hong.github.io/edit/main/blog/blog_20260122_careless2026/index.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://iron-hong.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
 </div>
