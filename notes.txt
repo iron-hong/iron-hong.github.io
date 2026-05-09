@@ -2,4 +2,3 @@
 
 CV.md  <==>  Chinese.qmd
 
-CV.md 用 Typora 中的 Vue-Lian-Wide.css 
