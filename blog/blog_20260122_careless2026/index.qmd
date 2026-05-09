@@ -56,9 +56,11 @@ data1=careless::careless_dataset
 data2=careless::careless_dataset2
 
 # 최장 연속 응답
-x <- c(4,4,4,3,3,3,3,3,4,4)
-print(x)
+x <- c(4,4,4,3,3,3,3,3,4,4) 
+print(x) # 여기서 5번 "3"라는 문항을 연속적으로 응답하여 의심할 수 있음
 
+# 좀더 구체적인 데이터를 활용하여 박스플롯 사용하기
+# 결과를 보면 상당수의 이상치(의심되는 불성실한 응답)를 확인할 수 있음
 careless_long <- longstring(data2)
 boxplot(careless_long, main = "Boxplot of Longstring index")
 
