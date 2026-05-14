@@ -1,6 +1,6 @@
 ---
 title: "머신러닝 기반 인과추론 방법론: Causal forests"
-author: "홍 철"
+author: "Iron Hong"
 date: "2026-05-14"
 categories: [Biostatistics]
 title-block-banner: false
