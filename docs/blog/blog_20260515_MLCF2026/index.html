@@ -302,7 +302,7 @@ window.Quarto = {
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">average_treatment_effect</span>(tau.forest, <span class="at">target.sample =</span> <span class="st">"all"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  estimate    std.err 
-0.39333992 0.04802984 </code></pre>
+0.33666751 0.04918475 </code></pre>
 </div>
 </div>
 </section>
@@ -347,7 +347,7 @@ window.Quarto = {
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">paste</span>(<span class="st">"AUTOC:"</span>, <span class="fu">round</span>(rate<span class="sc">$</span>estimate, <span class="dv">2</span>), <span class="st">"+/"</span>, <span class="fu">round</span>(<span class="fl">1.96</span> <span class="sc">*</span> rate<span class="sc">$</span>std.err, <span class="dv">2</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "AUTOC: 0.51 +/ 0.13"</code></pre>
+<pre><code>[1] "AUTOC: 0.52 +/ 0.16"</code></pre>
 </div>
 </div>
 </section>

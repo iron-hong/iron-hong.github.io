@@ -67,7 +67,7 @@
     "href": "blog/blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Title\n\n\n\nDate\n\n\n\n\n\n\n\n\n머신러닝 기반 인과추론 방법론: Causal forests\n\n\n5/14/26\n\n\n\n\n\n\nPLS-SEM in R: cSEM 패키지 활용 튜토리얼\n\n\n5/5/26\n\n\n\n\n\n\n우리는 설문조사에 얼마나 성실하게 응답했는가?\n\n\n2/5/26\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\n\nDate\n\n\n\n\n\n\n\n\n머신러닝 기반 인과추론 방법론: Causal forests\n\n\n5/14/26\n\n\n\n\n\n\n우리는 설문조사에 얼마나 성실하게 응답했는가?\n\n\n2/5/26\n\n\n\n\n\n\nPLS-SEM in R: cSEM 패키지 활용 튜토리얼\n\n\n5/5/25\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -158,7 +158,7 @@
     "href": "blog/blog_20260515_MLCF2026/index.html#ate-추정전체-데이터",
     "title": "머신러닝 기반 인과추론 방법론: Causal forests",
     "section": "3.3 ATE 추정(전체 데이터)",
-    "text": "3.3 ATE 추정(전체 데이터)\n\naverage_treatment_effect(tau.forest, target.sample = \"all\")\n\n  estimate    std.err \n0.39333992 0.04802984"
+    "text": "3.3 ATE 추정(전체 데이터)\n\naverage_treatment_effect(tau.forest, target.sample = \"all\")\n\n  estimate    std.err \n0.33666751 0.04918475"
   },
   {
     "objectID": "blog/blog_20260515_MLCF2026/index.html#시험-데이터의-htecate-신뢰구간confidence-intervals-추정",
@@ -172,7 +172,7 @@
     "href": "blog/blog_20260515_MLCF2026/index.html#autoc의-95-신뢰구간-추정",
     "title": "머신러닝 기반 인과추론 방법론: Causal forests",
     "section": "3.5 AUTOC의 95% 신뢰구간 추정",
-    "text": "3.5 AUTOC의 95% 신뢰구간 추정\n\ntrain &lt;- sample(1:n, n / 2)\ntrain.forest &lt;- causal_forest(X[train, ], Y[train], W[train])\neval.forest &lt;- causal_forest(X[-train, ], Y[-train], W[-train])\nrate &lt;- rank_average_treatment_effect(eval.forest,\n        predict(train.forest, X[-train, ])$predictions)\nplot(rate)\n\n\n\n\n\n\n\npaste(\"AUTOC:\", round(rate$estimate, 2), \"+/\", round(1.96 * rate$std.err, 2))\n\n[1] \"AUTOC: 0.51 +/ 0.13\""
+    "text": "3.5 AUTOC의 95% 신뢰구간 추정\n\ntrain &lt;- sample(1:n, n / 2)\ntrain.forest &lt;- causal_forest(X[train, ], Y[train], W[train])\neval.forest &lt;- causal_forest(X[-train, ], Y[-train], W[-train])\nrate &lt;- rank_average_treatment_effect(eval.forest,\n        predict(train.forest, X[-train, ])$predictions)\nplot(rate)\n\n\n\n\n\n\n\npaste(\"AUTOC:\", round(rate$estimate, 2), \"+/\", round(1.96 * rate$std.err, 2))\n\n[1] \"AUTOC: 0.52 +/ 0.16\""
   },
   {
     "objectID": "blog/blog_20260515_MLCF2026/index.html#footnotes",
