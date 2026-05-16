@@ -14,7 +14,7 @@ website:
     left: |
       [iron-hong](https://iron-hong.github.io)<br>
     right: |
-      Made with [Quarto](https://quarto.org/)<br>
+      2019-2026<br>
     
   navbar: 
     background: "#A9CCE3"
@@ -34,4 +34,7 @@ format:
     theme: styles.scss
     toc: true           
     toc-position: right  
-    toc-depth: 3         
+    toc-depth: 3 
+    css: styles.css
+    include-after-body: 
+      - visitor.html

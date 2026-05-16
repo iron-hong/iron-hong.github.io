@@ -139,6 +139,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -302,7 +303,7 @@ window.Quarto = {
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">average_treatment_effect</span>(tau.forest, <span class="at">target.sample =</span> <span class="st">"all"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  estimate    std.err 
-0.44926064 0.05035635 </code></pre>
+0.48322466 0.05031402 </code></pre>
 </div>
 </div>
 </section>
@@ -347,7 +348,7 @@ window.Quarto = {
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">paste</span>(<span class="st">"AUTOC:"</span>, <span class="fu">round</span>(rate<span class="sc">$</span>estimate, <span class="dv">2</span>), <span class="st">"+/"</span>, <span class="fu">round</span>(<span class="fl">1.96</span> <span class="sc">*</span> rate<span class="sc">$</span>std.err, <span class="dv">2</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "AUTOC: 0.58 +/ 0.12"</code></pre>
+<pre><code>[1] "AUTOC: 0.51 +/ 0.13"</code></pre>
 </div>
 </div>
 </section>
@@ -373,6 +374,26 @@ window.Quarto = {
 <li id="fn4"><p>여기서 실현되는(realized) 잠재결과는 사실(factual)이고, 실현되지 않는(unrealized) 잠재결과는 반사실 또는 대안사실(counterfactual)이라고 정의합니다.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
+<script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="footer-visitor-count" style="text-align: center; margin-top: 2rem; color: #666;">
+
+    <span id="busuanzi_container_site_pv">
+
+        总访问量 <span id="busuanzi_site_pv"></span> 次
+
+    </span>
+
+    <span class="separator" style="margin: 0 10px;">|</span>
+
+    <span id="busuanzi_container_site_uv">
+
+        总访客数 <span id="busuanzi_site_uv"></span> 人
+
+    </span>
+
+</div>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -783,7 +804,7 @@ window.Quarto = {
       &nbsp;
     <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://iron-hong.github.io/edit/main/blog/blog_20260515_MLCF2026/index.qmd" class="toc-action"><i class="bi bi-git"></i>Edit this page</a></li><li><a href="https://iron-hong.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
-<p>Made with <a href="https://quarto.org/">Quarto</a><br></p>
+<p>2019-2026<br></p>
 </div>
   </div>
 </footer>

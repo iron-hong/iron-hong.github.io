@@ -67,7 +67,7 @@
     "href": "blog/blog_20260515_MLCF2026/index.html#ate-추정전체-데이터",
     "title": "머신러닝 기반 인과추론 방법론: Causal forests",
     "section": "3.3 ATE 추정(전체 데이터)",
-    "text": "3.3 ATE 추정(전체 데이터)\n\naverage_treatment_effect(tau.forest, target.sample = \"all\")\n\n  estimate    std.err \n0.44926064 0.05035635"
+    "text": "3.3 ATE 추정(전체 데이터)\n\naverage_treatment_effect(tau.forest, target.sample = \"all\")\n\n  estimate    std.err \n0.48322466 0.05031402"
   },
   {
     "objectID": "blog/blog_20260515_MLCF2026/index.html#시험-데이터의-htecate-신뢰구간confidence-intervals-추정",
@@ -81,7 +81,7 @@
     "href": "blog/blog_20260515_MLCF2026/index.html#autoc의-95-신뢰구간-추정",
     "title": "머신러닝 기반 인과추론 방법론: Causal forests",
     "section": "3.5 AUTOC의 95% 신뢰구간 추정",
-    "text": "3.5 AUTOC의 95% 신뢰구간 추정\n\ntrain &lt;- sample(1:n, n / 2)\ntrain.forest &lt;- causal_forest(X[train, ], Y[train], W[train])\neval.forest &lt;- causal_forest(X[-train, ], Y[-train], W[-train])\nrate &lt;- rank_average_treatment_effect(eval.forest,\n        predict(train.forest, X[-train, ])$predictions)\nplot(rate)\n\n\n\n\n\n\n\npaste(\"AUTOC:\", round(rate$estimate, 2), \"+/\", round(1.96 * rate$std.err, 2))\n\n[1] \"AUTOC: 0.58 +/ 0.12\""
+    "text": "3.5 AUTOC의 95% 신뢰구간 추정\n\ntrain &lt;- sample(1:n, n / 2)\ntrain.forest &lt;- causal_forest(X[train, ], Y[train], W[train])\neval.forest &lt;- causal_forest(X[-train, ], Y[-train], W[-train])\nrate &lt;- rank_average_treatment_effect(eval.forest,\n        predict(train.forest, X[-train, ])$predictions)\nplot(rate)\n\n\n\n\n\n\n\npaste(\"AUTOC:\", round(rate$estimate, 2), \"+/\", round(1.96 * rate$std.err, 2))\n\n[1] \"AUTOC: 0.51 +/ 0.13\""
   },
   {
     "objectID": "blog/blog_20260515_MLCF2026/index.html#footnotes",
